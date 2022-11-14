@@ -139,4 +139,44 @@ button {
   color: #02897A;
 }
 
+#management .management {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#management .management--text h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343D;
+  margin-bottom: 8px;
+}
+#management .management--text h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #22343D;
+  margin-bottom: 23px;
+}
+#management .management--text p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  width: 410px;
+}
+#management .management--text h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343D;
+  margin-top: 27px;
+  margin-bottom: 12px;
+}
+#management .management--img img {
+  width: 540px;
+}
+
 /*# sourceMappingURL=style.css.map */
