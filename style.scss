@@ -56,3 +56,59 @@ $nen:blue;
     }
   }
 }
+
+#hero{
+  .hero{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--tittle{
+      h1{
+        width: 518px;
+        font-family: 'Poppins',sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+        color: #22343D;
+      }
+      p{
+        margin-top: 18px;
+        margin-bottom: 45px;
+        width: 458px;
+        font-family: 'Poppins',sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #22343D;
+
+      }
+      &__btn{
+        display: flex;
+        align-items: center;
+        button{
+          font-family: 'Poppins',sans-serif;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+          color: #FFFFFF;
+          height: 53px;
+          width: 175px;
+          background: #02897A;
+          border-radius: 4px;
+
+        }
+        a{
+          margin-left: 20px;
+          font-family: 'Poppins',sans-serif;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          text-decoration-line: underline;
+          color: #02897A;
+        }
+      }
+
+    }
+  }
+}
