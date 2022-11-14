@@ -112,8 +112,44 @@ $nen:blue;
 
     }
   }
+}
 
 
+
+#management {
+  .management {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    &--text {
+      h4 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        color: #22343D;
+        margin-bottom: 8px;
+      }
+
+      h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        color: #22343D;
+        margin-bottom: 23px;
+      }
+
+      p {
+        width: 410px;
+        font-size: 16px;
+        color: #22343D;
+        line-height: 26px;
+      }
+
+
+    }
+  }
 }
 
 
@@ -148,6 +184,22 @@ $nen:blue;
         font-size: 16px;
         line-height: 26px;
         color: #22343D;
+
+
+      }
+      h6{
+        font-family: 'Poppins',sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        color: #22343D;
+        margin-top: 27px;
+        margin-bottom: 12px;
+      }
+    }
+    &--img{
+      img{
+        width: 540px;
+
       }
       &__yellow{
         display: flex;
@@ -190,6 +242,8 @@ $nen:blue;
           color: #22343D;
 
         }
+
+
       }
     }
   }
