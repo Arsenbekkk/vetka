@@ -112,6 +112,231 @@ $nen:blue;
 
     }
   }
+}
 
+
+
+
+#management{
+  .management{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &--text{
+      h4{
+        font-family: 'Poppins',sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        color: #22343D;
+        margin-bottom: 8px;
+      }
+
+
+      h1{
+        font-family: 'Poppins',sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        color: #22343D;
+        margin-bottom: 23px;
+      }
+
+      p {
+        width: 410px;
+        font-size: 16px;
+        color: #22343D;
+        line-height: 26px;
+      }
+
+
+    }
+  }
+}
+
+
+
+
+
+
+#product{
+  margin-top: 100px;
+  .customer{
+    text-align: center;
+    &--button{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFFFFF;
+    }
+    h2{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 48px;
+      color: #22343D;
+    }
+    &--block__rod{
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-around;
+.block__1{
+  h1{
+ @include h1;
+    margin: 10px 0;
+  }
+  p{
+ @include p;
+  }
 
 }
+      .block__2{
+        h1{
+          @include h1;
+          margin: 10px 0;
+        }
+        p{
+  @include p;
+}
+
+      }
+      .block__3{
+        h1{
+          @include h1;
+          margin: 10px 0; 
+        }
+        p{
+        @include p;
+        }
+      }
+      .block__4{
+        h1{
+          @include h1;
+          margin: 10px 0;
+        }
+        p{
+          @include p;
+        }
+      }
+    }
+    &--button{
+      button{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        border: 2px solid #02897A;
+        background: #02897A;
+        height: 53px;
+        width: 175px;
+        margin-top: 80px;
+        border-radius: 4px;
+      }
+    }
+  }
+}
+
+
+
+#customer{
+  .customer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--tittle{
+      h5{
+        width: 220px;
+        font-family: 'Poppins',sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #22343D;
+      }
+      h1{
+        margin: 8px 0 23px 0;
+        width: 310px;
+        font-family: 'Poppins',sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        color: #22343D;
+      }
+      .tittle-p{
+        width: 486px;
+        margin-bottom: 15px;
+
+        font-family: 'Poppins',sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
+      }
+
+
+
+        //width: 410px;
+      }
+      //h6{
+      //  font-family: 'Poppins',sans-serif;
+      //  font-weight: 600;
+      //  font-size: 16px;
+      //  color: #22343D;
+      //  margin-top: 27px;
+      //  margin-bottom: 12px;
+      //}
+    }
+    &--img{
+      img{
+        width: 540px;
+
+      }
+      &__yellow{
+        display: flex;
+        align-items: center;
+        p{
+          margin-left: 30px;
+          width: 370px;
+          font-family: 'Poppins',sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          color: #22343D;
+        }
+      }
+      &__red{
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+        p{
+          margin-left:30px;
+          width: 385px;
+          font-family: 'Poppins',sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          color: #22343D;
+        }
+
+      }
+      &__blue{
+        display: flex;
+        align-items: center;
+        p{
+          margin-left: 30px;
+          width: 389px;
+          font-family: 'Poppins',sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          color: #22343D;
+
+        }
+
+
+      }
+    }
+}
+
+
+
