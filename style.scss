@@ -116,8 +116,14 @@ $nen:blue;
 
 
 
+
 #management {
   .management {
+
+
+#management{
+  .management{
+
     margin-top: 150px;
     display: flex;
     align-items: center;
@@ -132,8 +138,14 @@ $nen:blue;
         margin-bottom: 8px;
       }
 
+
       h1 {
         font-family: 'Poppins', sans-serif;
+
+
+      h1{
+        font-family: 'Poppins',sans-serif;
+
         font-weight: 700;
         font-size: 32px;
         color: #22343D;
@@ -148,9 +160,99 @@ $nen:blue;
       }
 
 
+
+
+
+
     }
   }
 }
+
+
+
+
+
+
+#product{
+  margin-top: 100px;
+  .customer{
+    text-align: center;
+    &--button{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFFFFF;
+    }
+    h2{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 48px;
+      color: #22343D;
+    }
+    &--block__rod{
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-around;
+.block__1{
+  h1{
+ @include h1;
+    margin: 10px 0;
+  }
+  p{
+ @include p;
+  }
+
+}
+      .block__2{
+        h1{
+          @include h1;
+          margin: 10px 0;
+        }
+        p{
+  @include p;
+}
+
+      }
+      .block__3{
+        h1{
+          @include h1;
+          margin: 10px 0; 
+        }
+        p{
+        @include p;
+        }
+      }
+      .block__4{
+        h1{
+          @include h1;
+          margin: 10px 0;
+        }
+        p{
+          @include p;
+        }
+      }
+    }
+    &--button{
+      button{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        border: 2px solid #02897A;
+        background: #02897A;
+        height: 53px;
+        width: 175px;
+        margin-top: 80px;
+        border-radius: 4px;
+      }
+
+    }
+  }
+}
+
 
 
 #customer{
@@ -187,14 +289,19 @@ $nen:blue;
 
 
       }
-      h6{
-        font-family: 'Poppins',sans-serif;
-        font-weight: 600;
-        font-size: 16px;
-        color: #22343D;
-        margin-top: 27px;
-        margin-bottom: 12px;
+
+
+
+        //width: 410px;
       }
+      //h6{
+      //  font-family: 'Poppins',sans-serif;
+      //  font-weight: 600;
+      //  font-size: 16px;
+      //  color: #22343D;
+      //  margin-top: 27px;
+      //  margin-bottom: 12px;
+      //}
     }
     &--img{
       img{
@@ -246,5 +353,7 @@ $nen:blue;
 
       }
     }
-  }
 }
+
+
+
