@@ -166,6 +166,109 @@ button {
   line-height: 26px;
 }
 
+#product {
+  margin-top: 100px;
+}
+#product .customer {
+  text-align: center;
+}
+#product .customer--button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+#product .customer h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #22343D;
+}
+#product .customer--block__rod {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+#product .customer--block__rod .block__1 h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  width: 210px;
+  margin: 10px 0;
+}
+#product .customer--block__rod .block__1 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  width: 240px;
+}
+#product .customer--block__rod .block__2 h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  width: 210px;
+  margin: 10px 0;
+}
+#product .customer--block__rod .block__2 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  width: 240px;
+}
+#product .customer--block__rod .block__3 h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  width: 210px;
+  margin: 10px 0;
+}
+#product .customer--block__rod .block__3 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  width: 240px;
+}
+#product .customer--block__rod .block__4 h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  width: 210px;
+  margin: 10px 0;
+}
+#product .customer--block__rod .block__4 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  width: 240px;
+}
+#product .customer--button button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border: 2px solid #02897A;
+  background: #02897A;
+  height: 53px;
+  width: 175px;
+  margin-top: 80px;
+  border-radius: 4px;
+}
+
 #customer .customer {
   display: flex;
   align-items: center;
@@ -197,22 +300,14 @@ button {
   line-height: 26px;
   color: #22343D;
 }
-#customer .customer--tittle h6 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  color: #22343D;
-  margin-top: 27px;
-  margin-bottom: 12px;
-}
-#customer .customer--img img {
+#customer--img img {
   width: 540px;
 }
-#customer .customer--img__yellow {
+#customer--img__yellow {
   display: flex;
   align-items: center;
 }
-#customer .customer--img__yellow p {
+#customer--img__yellow p {
   margin-left: 30px;
   width: 370px;
   font-family: "Poppins", sans-serif;
@@ -221,12 +316,12 @@ button {
   line-height: 26px;
   color: #22343D;
 }
-#customer .customer--img__red {
+#customer--img__red {
   margin: 20px 0;
   display: flex;
   align-items: center;
 }
-#customer .customer--img__red p {
+#customer--img__red p {
   margin-left: 30px;
   width: 385px;
   font-family: "Poppins", sans-serif;
@@ -235,11 +330,11 @@ button {
   line-height: 26px;
   color: #22343D;
 }
-#customer .customer--img__blue {
+#customer--img__blue {
   display: flex;
   align-items: center;
 }
-#customer .customer--img__blue p {
+#customer--img__blue p {
   margin-left: 30px;
   width: 389px;
   font-family: "Poppins", sans-serif;
