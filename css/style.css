@@ -440,4 +440,82 @@ button {
   color: #FFFFFF;
 }
 
+#price .price h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343D;
+}
+#price .price p {
+  margin: 10px 0 40px 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #22343D;
+}
+#price .price--blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#price .price--blocks__block1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 322.65px;
+  height: 456px;
+  background: #FFFFFF;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+#price .price--blocks__block1 h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #22343D;
+}
+#price .price--blocks__block1 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #22343D;
+}
+#price .price--blocks__block1--zero {
+  display: flex;
+  align-items: center;
+}
+#price .price--blocks__block1--zero h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+  letter-spacing: 0.2px;
+  color: #02897A;
+}
+#price .price--blocks__block1--zero h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.1px;
+  color: #02897A;
+}
+#price .price--blocks__block1--zero p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  color: #AFAFAF;
+}
+#price .price--blocks__block1 button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+  background: #02897A;
+  height: 44px;
+  width: 139px;
+  border-radius: 8px;
+}
+
 /*# sourceMappingURL=style.css.map */
