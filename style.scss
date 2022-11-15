@@ -114,9 +114,6 @@ $nen:blue;
   }
 }
 
-
-
-
 #management{
   .management{
     margin-top: 150px;
@@ -152,11 +149,6 @@ $nen:blue;
     }
   }
 }
-
-
-
-
-
 
 #product{
   margin-top: 100px;
@@ -236,8 +228,6 @@ $nen:blue;
     }
   }
 }
-
-
 
 #customer{
   .customer{
@@ -338,5 +328,100 @@ $nen:blue;
     }
 }
 
+#quick{
+  padding-top: 70px;
+  .quick{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+      width: 348px;
+      font-family: 'Poppins',sans-serif;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 48px;
+      text-align: center;
+      color: #22343D;
+    }
+    .quick-p{
+      margin: 16px 0 32px 0;
+      width: 542px;
+      font-family: 'Poppins',sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      color: #22343D;
+    }
+    &--girls{
+      width: 1200px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      &__block1{
+        display: flex;
+        align-items: center;
+        p{
+          margin-left: 15px;
+          font-family: 'Poppins',sans-serif;
+          font-weight: 500;
+          font-size: 16px;
+          color: #2F281E;
+        }
+      }
+      &__block2{
+        display: flex;
+        align-items: center;
+        p{
+          margin-right: 15px;
+          font-family: 'Poppins',sans-serif;
+          font-weight: 500;
+          font-size: 16px;
+          color: #2F281E;
+        }
+      }
 
+    }
+    &--boys{
+      width: 1200px;
+      justify-content: space-evenly;
+      display: flex;
+      align-items: center;
+      &__block1{
+        display: flex;
+        align-items: center;
+        p{
+          margin-right: 15px;
+          font-family: 'Poppins',sans-serif;
+          font-weight: 500;
+          font-size: 16px;
+          color: #2F281E;
+        }
+      }
+      &__block2{
+        display: flex;
+        align-items: center;
+        p{
+          margin-left: 15px;
+          font-family: 'Poppins',sans-serif;
+          font-weight: 500;
+          font-size: 16px;
+          color: #2F281E;
+        }
+      }
+    }
+    button{
+      margin: 30px 0 0 0 ;
+      height: 53px;
+      width: 216px;
+      border-radius: 4px;
+      background: #02897A;
+      font-family: 'Poppins',sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      color: #FFFFFF;
+    }
+  }
+}
 
