@@ -114,15 +114,28 @@ $nen:blue;
   }
 }
 
+
+
+
+
+
+#management {
+  .management {
+
+
+
+
 #management{
   .management{
+
     margin-top: 150px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    &--text{
-      h4{
-        font-family: 'Poppins',sans-serif;
+
+    &--text {
+      h4 {
+        font-family: 'Poppins', sans-serif;
         font-weight: 600;
         font-size: 16px;
         color: #22343D;
@@ -130,8 +143,13 @@ $nen:blue;
       }
 
 
+      h1 {
+        font-family: 'Poppins', sans-serif;
+
+
       h1{
         font-family: 'Poppins',sans-serif;
+
         font-weight: 700;
         font-size: 32px;
         color: #22343D;
@@ -146,9 +164,16 @@ $nen:blue;
       }
 
 
+
+
+
+
+
     }
   }
 }
+
+
 
 #product{
   margin-top: 100px;
@@ -225,9 +250,12 @@ $nen:blue;
         margin-top: 80px;
         border-radius: 4px;
       }
+
     }
   }
 }
+  
+
 
 #customer{
   .customer{
@@ -255,12 +283,13 @@ $nen:blue;
       .tittle-p{
         width: 486px;
         margin-bottom: 15px;
-
         font-family: 'Poppins',sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 26px;
         color: #22343D;
+
+
       }
 
 
@@ -327,6 +356,7 @@ $nen:blue;
       }
     }
 }
+
 
 #quick{
   padding-top: 70px;
@@ -424,4 +454,5 @@ $nen:blue;
     }
   }
 }
+
 
