@@ -114,17 +114,6 @@ $nen:blue;
   }
 }
 
-
-
-
-
-
-#management {
-  .management {
-
-
-
-
 #management{
   .management{
 
@@ -141,12 +130,6 @@ $nen:blue;
         color: #22343D;
         margin-bottom: 8px;
       }
-
-
-      h1 {
-        font-family: 'Poppins', sans-serif;
-
-
       h1{
         font-family: 'Poppins',sans-serif;
 
@@ -155,25 +138,15 @@ $nen:blue;
         color: #22343D;
         margin-bottom: 23px;
       }
-
       p {
         width: 410px;
         font-size: 16px;
         color: #22343D;
         line-height: 26px;
       }
-
-
-
-
-
-
-
     }
   }
 }
-
-
 
 #product{
   margin-top: 100px;
@@ -254,8 +227,6 @@ $nen:blue;
     }
   }
 }
-  
-
 
 #customer{
   .customer{
@@ -304,7 +275,6 @@ $nen:blue;
       //  margin-top: 27px;
       //  margin-bottom: 12px;
       //}
-    }
     &--img{
       img{
         width: 540px;
@@ -355,8 +325,8 @@ $nen:blue;
 
       }
     }
+  }
 }
-
 
 #quick{
   padding-top: 70px;
@@ -451,6 +421,67 @@ $nen:blue;
       font-weight: 700;
       font-size: 16px;
       color: #FFFFFF;
+    }
+  }
+}
+
+#content{
+  padding-top: 50px;
+  .content{
+    h1{
+      width: 349px;
+      font-family: 'Poppins',sans-serif;
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 51px;
+      color: #22343D;
+    }
+    .content-p{
+      width: 693px;
+      font-family: 'Poppins',sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 26px;
+      color: #22343D;
+      margin-bottom: 25px ;
+    }
+    &--blocks{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &__block1{
+        img{
+          border-radius: 8px;
+        }
+        height: 360px;
+        width: 349px;
+        border-radius: 8px;
+        border: 1px solid gray;
+        &--text{
+          margin: 15px 20px;
+
+          p{
+            font-family: 'Poppins',sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #22343D;
+          }
+          h3{
+            font-family: 'Poppins',sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 40px;
+            color: #22343D;
+          }
+        }
+      }
+    }
+    .content-img{
+      margin: 40px 0 150px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 }
