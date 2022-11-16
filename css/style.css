@@ -269,6 +269,60 @@ button {
   border-radius: 4px;
 }
 
+#content {
+  font-family: "Poppins", sans-serif;
+}
+#content .content h1 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343D;
+}
+#content .content .content-p {
+  width: 693px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  color: #22343D;
+}
+#content .content--blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#content .content--blocks__block1 {
+  height: 359px;
+  width: 348px;
+  background: #FFFFFF;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+#content .content--blocks__block1 img {
+  border-radius: 8px;
+}
+#content .content--blocks__block1--text {
+  margin: 20px 25px;
+}
+#content .content--blocks__block1--text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #22343D;
+}
+#content .content--blocks__block1--text h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #22343D;
+}
+#content .content .content-img {
+  margin: 70px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #customer .customer {
   display: flex;
   align-items: center;
@@ -440,7 +494,6 @@ button {
   color: #FFFFFF;
 }
 
-
 #footer {
   margin-top: 100px;
 }
@@ -507,7 +560,8 @@ button {
   border: 1px solid #BCD0E5;
   border-radius: 4px;
   margin: 20px 0;
-=======
+}
+
 #price .price h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -584,7 +638,6 @@ button {
   height: 44px;
   width: 139px;
   border-radius: 8px;
-
 }
 
 /*# sourceMappingURL=style.css.map */
