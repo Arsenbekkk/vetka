@@ -562,19 +562,22 @@ button {
   margin: 20px 0;
 }
 
+#price {
+  padding: 70px 0;
+}
 #price .price h1 {
+  text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 34px;
-  line-height: 51px;
   color: #22343D;
 }
 #price .price p {
+  text-align: center;
   margin: 10px 0 40px 0;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
   color: #22343D;
 }
 #price .price--blocks {
@@ -606,7 +609,6 @@ button {
 }
 #price .price--blocks__block1--zero {
   display: flex;
-  align-items: center;
 }
 #price .price--blocks__block1--zero h1 {
   font-family: "Poppins", sans-serif;
@@ -616,6 +618,7 @@ button {
   color: #02897A;
 }
 #price .price--blocks__block1--zero h5 {
+  margin-top: 12px;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 24px;
